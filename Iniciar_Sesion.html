@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Registro</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <!--el link de bootstrap offline-->
+  <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+  <!--para los iconos-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header class="header5">
+    <nav class="NavbarItems">
+        <h1 class="logo">
+            PATITAS<i class="fa-solid fa-stethoscope"></i>
+        </h1>
+        <div class="menu-icons">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-links">Casa <i class="fa-solid fa-house-user"></i></a></li>
+            <li><a href="Informacion.html" class="nav-links">Informacion <i class="fa-solid fa-circle-info"></i></a>
+            </li>
+            <li><a href="Consulta.html" class="nav-links">Consulta <i class="fa-solid fa-notes-medical"></i></a></li>
+            <li><a href="Juguetes.html" class="nav-links">Juguetes <i class="fa-solid fa-bone"></i></a></li>
+            <li><a href="Iniciar_Sesion.html" class="nav-links-movile">Siguenos</a></li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</header>
+<!--titulos-->
+<section class="cabecera5">
+  <div class="redes">
+    <a href="https://www.instagram.com/veterinaria_sandaza/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@VETERINARIOGRATIS"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.facebook.com/veterinarialaselvabolivia"><i class="fa-brands fa-facebook-f"></i></a>
+</div>
+    <div class="pets">
+        <img src="images/fondoin.png" alt="">
+    </div>
+</section>
+<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+<script>
+    const sr = ScrollReveal({
+        distance: '65px',
+        duration: 2600,
+        delay: 450,
+        reset: true
+    });
+
+    sr.reveal('.pets img', { delay: 450, origin: 'bottom', opacity: 0 });
+</script>
+<section>
+
+<!--Formulario de registro-->
+<section class="Sesion">
+  <div class="p-3 mb-2 bg-primary bg-gradient fw-bold text-white">
+      <h4> <i class="bi bi-chat-left-quote"></i> &nbsp;Registro del cliente</h4>
+  </div>
+  <br>
+  <div class="row mb-3">
+      <form action="">
+          <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Usuario</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputEmail3">
+        </div>
+      </div>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Contraseña</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <br>
+  <div class="col-12">
+    <input type="submit" class="btn btn-primary" name="Enviar" onclick=return enviar()">
+    <button type="reset" class="btn btn-danger">Borrar</button>
+  </div>
+  <br>
+  <p>¿No tienes una cuenta?<a href="Registro.html">Registrate</a></p>
+</form>
+</article>
+</section>
+<!--Fin formulario-->
+<br>
+<!--pie de pagina-->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/veterinarialaselvabolivia" role="button"
+        ><i class="fab fa-facebook-f"></i></a>
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/@VETERINARIOGRATIS" role="button"
+        ><i class="fab fa-youtube"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/veterinaria_sandaza/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Suscríbete a nuestro boletín</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Direccion Email</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Suscribete
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2024 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  <script src="js/main.js"></script>
+  <script src='js/bootstrap.min.js'></script>
+</body>    
+</html>

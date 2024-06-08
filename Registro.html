@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<title>Registro</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="https://kit.fontawesome.com/5baedcb640.js" crossorigin="anonymous"></script>
+	
+
+</head>
+
+<body class="fondo1">
+
+	<!--Formulario de registro-->
+	<div class="registro">
+		<header>REGISTRO DE DATOS DEL USUARIO</header>
+
+		<div class="progress-bar">
+			<div class="paso">
+				<p> Personal</p>
+				<div class="num">
+					<span>1</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="paso">
+				<p> Contacto</p>
+				<div class="num">
+					<span>2</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="paso">
+				<p> Usuario</p>
+				<div class="num">
+					<span>3</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+		</div>
+
+		<div class="form-princ">
+			<form action="#">
+
+				<!--PAGINA 1-->
+				<div class="pagina movPag">
+					<div class="titulo">Datos Personales</div>
+					<div class="campo">
+						<div class="label">Nombres: </div>
+						<input type="text" id="nombres">
+					</div>
+					<div class="campo">
+						<div class="label">Apellido Paterno: </div>
+						<input type="text" id="apellido1">
+					</div>
+					<div class="campo">
+						<div class="label">Apellido Materno: </div>
+						<input type="text" id="apellido2">
+					</div>
+					<div class="campo">
+						<div class="label">Fecha de Nacimiento: </div>
+						<input type="date" id="fechaNac" max="2030-12-31">
+					</div>
+					<div class="campo">
+						<div class="label">Genero:</div>
+						<select id="sexo">
+							<option value="0" disabled selected>Elige tu genero</option>
+							<option value="1">Masculino</option>
+							<option value="2">Femenino</option>
+						</select>
+					</div>
+					<div class="campo sigPag">
+						<button>Siguiente</button>
+					</div>
+				</div>
+
+				<!--PAGINA 2-->
+				<div class="pagina">
+					<div class="titulo">Datos de Contacto</div>
+					<div class="campo">
+						<div class="label">Numero de Celular:</div>
+						<input type="text" id="numCel">
+					</div>
+					<div class="campo">
+						<div class="label">Correo Electronico:</div>
+						<input type="text" id="correo">
+					</div>
+					<div class="campo">
+						<div class="label">Pais:</div>
+						<select id="pais">
+							<option value="0" disabled selected>Elige tu pais</option>
+							<option value="1">Argentina</option>
+							<option value="2">Austria</option>
+							<option value="3">Belgica</option>
+							<option value="4">Bolivia</option>
+							<option value="5">Brasil</option>
+							<option value="6">España</option>
+							<option value="7">Estados Unidos</option>
+							<option value="8">Francia</option>
+							<option value="9">India</option>
+							<option value="10">Italia</option>
+							<option value="11">Japon</option>
+							<option value="12">Londres</option>
+							<option value="13">Malasya</option>
+							<option value="14">Mexico</option>
+							<option value="15">Peru</option>
+							<option value="16">Puerto Rico</option>
+						</select>
+					</div>
+					<div class="campo">
+						<div class="label">Ciudad:</div>
+						<input type="text" id="ciudad">
+					</div>
+					<div class="campo">
+						<div class="label">Direccion:</div>
+						<input type="text" id="direccion">
+					</div>
+					<div class="campo btns">
+						<button class="vol-pag1 volver">Anterior</button>
+						<button class="sigPag2">Siguiente</button>
+					</div>
+				</div>
+
+				<!--PAGINA 3-->
+				<div class="pagina">
+					<div class="titulo">Datos de Inicio de Sesion</div>
+					<div class="campo">
+						<div class="label">Usuario:</div>
+						<input type="text" id="usuario">
+					</div>
+					<div class="campo">
+						<div class="label">Contraseña:</div>
+						<input type="password" id="contra1">
+						<span class="ojos" onclick="mostrarContra1()">
+							<i id="mostrar1" class="fa fa-eye" title="Mostrar Contraseña"></i>
+							<i id="ocultar1" class="fa fa-eye-slash" title="Ocultar Contraseña"></i>
+						</span>
+					</div>
+					<div class="campo">
+						<div class="label">Confirmar Contraseña:</div>
+						<input type="password" id="contra2">
+						<span class="ojos" onclick="mostrarContra2()">
+							<i id="mostrar2" class="fa fa-eye" title="Mostrar Contraseña"></i>
+							<i id="ocultar2" class="fa fa-eye-slash" title="Ocultar Contraseña"></i>
+						</span>
+					</div>
+					<div class="campo btns">
+						<button class="vol-pag2 volver">Anterior</button>
+						<button class="Fin">Registrame</button>
+					</div>
+					<p>¿Ya tienes una cuenta?<a href="Iniciar_Sesion.html">Iniciar Sesion</a></p>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+	<!--Scripts-->
+	<script src="js/movimiento.js"></script>
+</body>
+
+</html>

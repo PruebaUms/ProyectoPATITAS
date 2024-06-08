@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Consulta</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <header class="header3">
+    <nav class="NavbarItems">
+        <h1 class="logo">
+            PATITAS<i class="fa-solid fa-stethoscope"></i>
+        </h1>
+        <div class="menu-icons">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-links">Casa <i class="fa-solid fa-house-user"></i></a></li>
+            <li><a href="Informacion.html" class="nav-links">Informacion <i class="fa-solid fa-circle-info"></i></a>
+            </li>
+            <li><a href="Consulta.html" class="nav-links">Consulta <i class="fa-solid fa-notes-medical"></i></a></li>
+            <li><a href="Juguetes.html" class="nav-links">Juguetes <i class="fa-solid fa-bone"></i></a></li>
+            <li><a href="Iniciar_Sesion.html" class="nav-links-movile">Siguenos</a></li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</header>
+<!--titulos-->
+<section class="cabecera3">
+  <div class="pets">
+    <img src="images/inicioconsu.png" alt="">
+</div>
+    <div>
+        <h2 class="Nombre">Consulta</h2>
+    </div>
+    
+</section>
+
+<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+<script>
+  const sr = ScrollReveal({
+      distance: '65px',
+      duration: 2600,
+      delay: 450,
+      reset: true
+  });
+
+  sr.reveal('.pets img', { delay: 450, origin: 'bottom', opacity: 0 });
+</script>
+
+
+<section>
+  <div class="botones-marcas">
+    <div class="gallery1">
+      <img src="images/enfermedad.webp" alt="" class="gallery__img">
+      <img src ="images/logoenfe.png" class="editor__circle4">
+      <br>
+      <a href="#enfermedad">
+        <button type="button" class="botonir">Enfermedades comunes</button>
+      </a>
+    </div>
+    <div class="gallery1">
+      <img src="images/medicos.jpg" alt="" class="gallery__img">
+      <img src ="images/logomedicos.png" class="editor__circle4">
+      <br>
+      <a href="#Medicos">
+        <button type="button" class="botonir">Medicos</button>
+      </a>
+    </div>    
+    <div class="gallery1">
+      <img src="images/medicamentos.jpg" alt="" class="gallery__img">
+      <img src ="images/pildora.png" class="editor__circle4">
+      <br>
+      <a href="#medicamento">
+        <button type="button" class="botonir">Medicamentos</button>
+      </a>
+    </div>  
+    <div class="gallery1">
+      <img src="images/comidagato.jpg" alt="" class="gallery__img">
+      <br>
+      <a href="#cgato">
+        <button type="button" class="botonir">Comida Para gato</button>
+      </a>
+    </div>
+    <div class="gallery1">
+      <img src="images/comidaperro.jpeg" alt="" class="gallery__img">
+      <br>
+      <a href="#cperro">
+        <button type="button" class="botonir">Comida Para perro</button>
+      </a>
+    </div>    
+    <div class="gallery1">
+      <img src="images/alternativagato.webp" alt="" class="gallery__img">
+      <br>
+      <a href="#cAnimal">
+        <button type="button" class="botonir">Alternativas</button>
+      </a>
+    </div> 
+  </div>  
+    
+  </div>
+  <div id="enfermedad">
+    <section class="consultorio2">
+        <div class="cajaconw">
+            <img src="images/enfermoperro.jpg" alt="Enfermedades en Perros">
+        </div>
+        <div class="cajacon2w">
+            <h4>
+                <strong>Enfermedades Comunes en Perros</strong><br>
+                <ul>
+                    <li><strong>Parvovirus Canino:</strong> Una enfermedad viral grave que afecta principalmente a los cachorros.</li>
+                    <li><strong>Moquillo:</strong> Una enfermedad viral que afecta el sistema respiratorio, gastrointestinal y nervioso.</li>
+                    <li><strong>Gastroenteritis:</strong> Inflamación del tracto gastrointestinal, comúnmente causada por infecciones o alimentos en mal estado.</li>
+                    <li><strong>Otitis:</strong> Infección del oído, a menudo causada por bacterias, hongos o alergias.</li>
+                </ul>
+            </h4>
+        </div>
+    </section>
+    
+    <section class="consultorio2">
+        <div class="cajacon2w">
+            <h4>
+                <strong>Enfermedades Comunes en Gatos</strong><br>
+                <ul>
+                    <li><strong>Leucemia Felina:</strong> Un virus que afecta el sistema inmunológico y puede ser mortal.</li>
+                    <li><strong>Panleucopenia Felina:</strong> Una enfermedad viral altamente contagiosa y potencialmente mortal.</li>
+                    <li><strong>Enfermedad Renal:</strong> Problemas en los riñones, especialmente comunes en gatos mayores.</li>
+                    <li><strong>Conjuntivitis:</strong> Inflamación de la membrana conjuntiva del ojo, a menudo causada por infecciones o alergias.</li>
+                </ul>
+            </h4>
+        </div>
+        <div class="cajaconw">
+            <img src="images/gato-enfermo.jpg" alt="Enfermedades en Gatos">
+        </div>
+
+    </section>
+
+  </div>
+  <div id="Medicos">
+    <section id="equipo-destacado">
+        <h1 class="lines-effect">Nuestros Medicos</h1>
+    </section>
+  </div>
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc1.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">SANA AHMED</p>
+                <p class="text-muted">Medicina General</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc2.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">MARYANNE ANASTASIO</p>
+                <p class="text-muted">Emergencias y cuidados intensivos , Medicina general</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc3.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">HEATHER BAGINSKI</p>
+                <p class="text-muted">Cirugia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc4.jpg">
+              <div class="card-body">
+                <p class="card-title">JIMMY (CHUN YING) WU</p>
+                <p class="text-muted">Emergencias y Cuidados Críticos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc5.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">JAMES T. WINKLER</p>
+                <p class="text-muted">Cirugia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc6.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">LAURA WERTHEIMER</p>
+                <p class="text-muted">Cirugia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc7.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">ANDRES WEISSMAN</p>
+                <p class="text-muted">Diagnóstico por Imágenes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc8.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">THOMAS S. TROTTER</p>
+                <p class="text-muted">Medicina General</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/doc9.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">Jill sammarco</p>
+                <p class="text-muted">Cirugia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div id="medicamento">
+    <section id="equipo-destacado">
+        <h1 class="lines-effect">Medicamentos</h1>
+    </section>
+  </div>
+
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med1.webp">
+  
+              <div class="card-body">
+                <p class="card-title">Artrin Plus</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/artrin-plus">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$35</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med2.webp">
+  
+              <div class="card-body">
+                <p class="card-title">Artrin</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/artrin">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$15</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med3.webp">
+  
+              <div class="card-body">
+                <p class="card-title">Cani-Tabs Skin + Coat</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cani-tabs-skin-coat">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$15</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med4.webp">
+  
+              <div class="card-body">
+                <p class="card-title">Cani-Tabs Immunity & Allergies</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cani-tabs-immunity-allergies">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$5</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med5.webp">
+  
+              <div class="card-body">
+                <p class="card-title">Cani-Tabs Calming + Relax</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cani-tabs-calming-relax">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$9.97</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/med6.webp">
+              <div class="card-body">
+                <p class="card-title">Cani-Tabs Omega 3 EPA & DHA</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cani-tabs-omega-3-epa-dha">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$4.97</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  <div id="cperro">
+    <section id="equipo-destacado">
+        <h1 class="lines-effect">Comida para perro</h1>
+    </section>
+  </div>
+
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cperro1.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">Grature Pienso Puppy de Pollo para Cachorros</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://bo.miscota.com/perros/grature/pr-500864">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$31</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cperro2.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">Grature Pienso de Pollo para Perros Adultos</p>
+                <p class="text-muted"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://bo.miscota.com/perros/grature/adult-pollo-perro">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$12</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cperro3.jpg">
+  
+              <div class="card-body">
+                <p class="card-title">Grature Pienso Light de Pavo para Perros Adultos</p>
+                <p class="text-muted"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://bo.miscota.com/perros/grature/pienso-adult-light-de-pavo-perro">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">%23</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  <div id="cgato">
+    <section id="equipo-destacado">
+        <h1 class="lines-effect">Comida para GATOS</h1>
+    </section>
+  </div>
+
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cgato1.png">
+  
+              <div class="card-body">
+                <p class="card-title">Cat Chow Adultos Pescado Húmedo</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cat-chow-adultos-pescado-humedo">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$9</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cgato2.webp">
+              <div class="card-body">
+                <p class="card-title">Cat Chow Esterilizado Pescado Húmedo</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/cat-chow-esterilizado-pescado-humedo">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$60</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cgato3.png">
+              <div class="card-body">
+                <p class="card-title">Felix Salmón en Salsa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://petservi.com.bo/productos/felix-salmon-en-salsa">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Vista</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">$48</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  <div id="cAnimal">
+    <section id="equipo-destacado">
+        <h1 class="lines-effect">Alternativas</h1>
+    </section>
+  </div>
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ogojMsCHpsg?si=pNGv2CU6pkeumEZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                </div>
+              <div class="card-body">
+                <p class="card-title">En este video, aprenderás todo lo que necesitas saber sobre cómo identificar si tu perro tiene parvovirus. El parvovirus canino es una enfermedad altamente contagiosa que puede afectar a perros de todas las edades, pero es más común en cachorros. Conocer los síntomas de parvovirus en perros es crucial para poder actuar rápidamente y buscar tratamiento veterinario.</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pSkbw0DAY1M?si=roCxwd8FWLSfSIKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                </div>
+              <div class="card-body">
+                <p class="card-title">Dilatación y Torsión Gástrica:
+
+                    Síntomas: Babeo, inquietud, abdomen abultado.
+                    Acción: Atención veterinaria urgente.
+                    Enfermedad Transmitida por Mosquitos:
+                    
+                    Síntomas: Lesiones en piel, pérdida de pelo, fiebre.
+                    Prevención: Insecticidas, repelentes, vacunas.
+                    Diabetes Canina:
+                    
+                    Síntomas: Sed y micción excesivas, pérdida de peso.
+                    Tratamiento: Insulina, control veterinario.
+                    Parvovirus Canino:
+                    
+                    Síntomas: Vómitos, diarrea hemorrágica, fiebre.
+                    Prevención: Vacunación.
+                    Piometra:
+                    
+                    Síntomas: Abdomen agrandado, secreciones vaginales.
+                    Tratamiento: Cirugía, atención veterinaria.
+                    Tumores Mamarios:
+                    
+                    Síntomas: Nódulos, ulceración en mamas.
+                    Acción: Chequeo veterinario regular.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7lJ1EfqmhUw?si=xdK8mkKpIP7_G5Db" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                </div>
+              <div class="card-body">
+                <p class="card-title">Parvovirus Canino:
+
+                    Síntomas: Diarrea hemorrágica, vómitos, deshidratación, septicemia, miocarditis.
+                    Prevención: Vacunación.
+                    Tratamiento: Rehidratación, antibióticos para prevenir septicemia, cuidados intensivos.
+                    Dilatación y Torsión Gástrica:
+                    
+                    Síntomas: Babeo, inquietud, abdomen abultado.
+                    Acción: Atención veterinaria urgente.
+                    Enfermedad Transmitida por Mosquitos:
+                    
+                    Síntomas: Lesiones en piel, pérdida de pelo, fiebre.
+                    Prevención: Insecticidas, repelentes, vacunas.
+                    Diabetes Canina:
+                    
+                    Síntomas: Sed y micción excesivas, pérdida de peso.
+                    Tratamiento: Insulina, control veterinario.
+                    Piometra:
+                    
+                    Síntomas: Abdomen agrandado, secreciones vaginales.
+                    Tratamiento: Cirugía, atención veterinaria.
+                    Tumores Mamarios:
+                    
+                    Síntomas: Nódulos, ulceración en mamas.
+                    Acción: Chequeo veterinario regular.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+<!--pie de pagina-->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/veterinarialaselvabolivia" role="button"
+          ><i class="fab fa-facebook-f"></i></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/@VETERINARIOGRATIS" role="button"
+          ><i class="fab fa-youtube"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/veterinaria_sandaza/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Suscríbete a nuestro boletín</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Direccion Email</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Suscribete
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+  <!-- Footer -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+    <script src="js/main.js"></script>
+    <script src='js/bootstrap.min.js'></script>
+  </body>    
+  </html>
