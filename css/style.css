@@ -150,7 +150,6 @@ a:focus {
 @import url('https:fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
 body {
-  /*background: #fbe8cc ;*/
   background: white;
 }
 
@@ -259,7 +258,6 @@ body {
   min-height: 80vh;
   background: url("../images/fondo2.png");
   background-size: 100% 100%;
-  /* Ajusta el tamaño de la imagen de fondo */
   display: grid;
   grid-template-columns: 50% 50%;
 
@@ -275,15 +273,12 @@ body {
 
 .info h1 {
   font-size: 3em;
-  /* Tamaño grande para el encabezado principal */
   margin-bottom: 20px;
 }
 
 .info h2 {
   font-size: 2em;
-  /* Tamaño grande para el subencabezado */
   line-height: 1.5;
-  /* Espaciado entre líneas */
   margin: 0 10%;
 }
 
@@ -317,7 +312,6 @@ body {
 
 .cajacon {
   background-color: #fff;
-  /* Color de fondo para la primera caja */
 }
 
 .cajacon2 {

@@ -220,7 +220,7 @@
                 const nextButton = document.getElementById('next');
                 const track = document.getElementById('track');
                 const items = document.querySelectorAll('.carousel-item');
-                const itemWidth = items[0].offsetWidth + 20; // Adjust for margin/padding
+                const itemWidth = items[0].offsetWidth + 20;
                 let currentPosition = 0;
                 prevButton.addEventListener('click', () => {
                     if (currentPosition > 0) {
@@ -233,7 +233,7 @@
                 });
 
                 nextButton.addEventListener('click', () => {
-                    if (currentPosition < (items.length - 3) * itemWidth) { // Adjust for number of visible items
+                    if (currentPosition < (items.length - 3) * itemWidth) { 
                         currentPosition += itemWidth;
                         track.style.transform = `translateX(-${currentPosition}px)`;
                     } else {
@@ -311,7 +311,6 @@
             </h3>
         </div>
         <div class="cajacon2">
-            <!-- Carousel Structure -->
             <div class="carousel-container">
                 <div class="carousel-track-container">
                     <ul class="carousel-track">
